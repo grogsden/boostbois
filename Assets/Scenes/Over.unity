@@ -411,6 +411,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Landing Pad
       objectReference: {fileID: 0}
+    - target: {fileID: 7566868630987814430, guid: b94fdb5a421abaf4580e5a92ac3068ef, type: 3}
+      propertyPath: m_TagString
+      value: Finish
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b94fdb5a421abaf4580e5a92ac3068ef, type: 3}
 --- !u!1001 &4441384072355075185
@@ -487,7 +491,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 78545036236086604, guid: 2cd0a15df79973240b2750008ddd7d88, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.41
+      value: 1.54
       objectReference: {fileID: 0}
     - target: {fileID: 78545036236086604, guid: 2cd0a15df79973240b2750008ddd7d88, type: 3}
       propertyPath: m_LocalPosition.z
@@ -534,14 +538,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2005729765, guid: 908e8a1898796f64e9c2701789d21a39, type: 3}
-      propertyPath: m_Drag
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2005729765, guid: 908e8a1898796f64e9c2701789d21a39, type: 3}
-      propertyPath: m_Constraints
-      value: 56
-      objectReference: {fileID: 0}
     - target: {fileID: 1526915230134961021, guid: 908e8a1898796f64e9c2701789d21a39, type: 3}
       propertyPath: m_RootOrder
       value: 5
