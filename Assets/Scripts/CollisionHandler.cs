@@ -1,8 +1,18 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class CollisionHandler : MonoBehaviour
 {  
-    
+    [SerializeField] float levelLoadDelay = 2f;
+    [SerializeField] AudioClip crash;
+    [SerializeField] AudioClip success;
+
+    AudioSource audioSource;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
     void OnCollisionEnter(Collision other) {
         switch (other.gameObject.tag)
         {
@@ -10,19 +20,34 @@ public class CollisionHandler : MonoBehaviour
                 Debug.Log("You collided with Friendly");
                 break;
             case "Finish":
-                NextLevel();
-                break;
-            case "Fuel":
-                Debug.Log("You hit some fuel");
+                StartSuccessSequence();
                 break;
             default:
-                ReloadLevel();
+                Debug.Log("Default Switch");
+                StartCrashSequence();
                 break;
         }
     }
 
+  void StartSuccessSequence()
+  {
+    audioSource.PlayOneShot(success);
+    // add partical effect upon crash
+    GetComponent<Movement>().enabled = false;
+    Invoke("NextLevel", levelLoadDelay);
+  }
+
+  void StartCrashSequence()
+    {
+        audioSource.PlayOneShot(crash);
+        // add partical effect upon crash
+        GetComponent<Movement>().enabled = false;
+        Invoke("ReloadLevel", levelLoadDelay);
+    }
+
     void ReloadLevel()
     {
+        Debug.Log("Level Reloaded");
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex);
     }
