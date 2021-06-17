@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!198 &324867505 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 7807419678048492778, guid: 908e8a1898796f64e9c2701789d21a39, type: 3}
+  m_PrefabInstance: {fileID: 8002476672919813787}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,6 +304,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!198 &1436985939 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3941969853058391564, guid: 908e8a1898796f64e9c2701789d21a39, type: 3}
+  m_PrefabInstance: {fileID: 8002476672919813787}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1796065252 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 7880872516948117987, guid: 908e8a1898796f64e9c2701789d21a39, type: 3}
+  m_PrefabInstance: {fileID: 8002476672919813787}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1618767021412917462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -534,6 +549,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2005729764, guid: 908e8a1898796f64e9c2701789d21a39, type: 3}
+      propertyPath: leftBoosterParticles
+      value: 
+      objectReference: {fileID: 324867505}
+    - target: {fileID: 2005729764, guid: 908e8a1898796f64e9c2701789d21a39, type: 3}
+      propertyPath: mainBoosterParticles
+      value: 
+      objectReference: {fileID: 1436985939}
+    - target: {fileID: 2005729764, guid: 908e8a1898796f64e9c2701789d21a39, type: 3}
+      propertyPath: rightBoosterParticles
+      value: 
+      objectReference: {fileID: 1796065252}
     - target: {fileID: 1526915230134961021, guid: 908e8a1898796f64e9c2701789d21a39, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -544,7 +571,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1526915230134961021, guid: 908e8a1898796f64e9c2701789d21a39, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.527
+      value: 1.93
       objectReference: {fileID: 0}
     - target: {fileID: 1526915230134961021, guid: 908e8a1898796f64e9c2701789d21a39, type: 3}
       propertyPath: m_LocalPosition.z
