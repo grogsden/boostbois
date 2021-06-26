@@ -10,5 +10,11 @@ EditorBuildSettings:
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/Under.unity
-    guid: 5f4f20274fe168a41a46b557ba7e4daf
+    guid: e21519ba3541da540a830eff57918e04
+  - enabled: 1
+    path: Assets/Scenes/Moving.unity
+    guid: 60318f4085d996a46a0040d53efce991
+  - enabled: 1
+    path: Assets/Scenes/Moving2.unity
+    guid: e97641d0a947e2a4ea6d49405f2d8471
   m_configObjects: {}
