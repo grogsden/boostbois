@@ -207,11 +207,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cd0a15df79973240b2750008ddd7d88, type: 3}
---- !u!198 &324867505 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 7807419678048492778, guid: 908e8a1898796f64e9c2701789d21a39, type: 3}
-  m_PrefabInstance: {fileID: 8002476672919813787}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &490793869 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 78545036236086604, guid: 2cd0a15df79973240b2750008ddd7d88, type: 3}
@@ -996,11 +991,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cd0a15df79973240b2750008ddd7d88, type: 3}
---- !u!198 &1436985939 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 3941969853058391564, guid: 908e8a1898796f64e9c2701789d21a39, type: 3}
-  m_PrefabInstance: {fileID: 8002476672919813787}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1521303164
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1201,11 +1191,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 78545036236086604, guid: 2cd0a15df79973240b2750008ddd7d88, type: 3}
   m_PrefabInstance: {fileID: 612354641}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &1796065252 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 7880872516948117987, guid: 908e8a1898796f64e9c2701789d21a39, type: 3}
-  m_PrefabInstance: {fileID: 8002476672919813787}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1976346075 stripped
 Transform:
@@ -1592,18 +1577,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2005729764, guid: 908e8a1898796f64e9c2701789d21a39, type: 3}
-      propertyPath: leftBoosterParticles
-      value: 
-      objectReference: {fileID: 324867505}
-    - target: {fileID: 2005729764, guid: 908e8a1898796f64e9c2701789d21a39, type: 3}
-      propertyPath: mainBoosterParticles
-      value: 
-      objectReference: {fileID: 1436985939}
-    - target: {fileID: 2005729764, guid: 908e8a1898796f64e9c2701789d21a39, type: 3}
-      propertyPath: rightBoosterParticles
-      value: 
-      objectReference: {fileID: 1796065252}
     - target: {fileID: 1526915230134961021, guid: 908e8a1898796f64e9c2701789d21a39, type: 3}
       propertyPath: m_RootOrder
       value: 4
